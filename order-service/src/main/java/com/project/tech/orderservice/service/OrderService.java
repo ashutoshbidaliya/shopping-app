@@ -35,6 +35,10 @@ public class OrderService {
                 .map(OrderLineItems::getSkuCode)
                 .toList();
 
+        //TODO Call Inventory service to check products and then place orders
+
+        orderRepository.save(order);
+
     }
 
     private OrderLineItems mapToDto(OrderLineItemsDto orderLineItemsDto) {

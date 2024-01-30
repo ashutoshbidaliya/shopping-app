@@ -1,0 +1,22 @@
+{
+  "orderLineItemsDtoList": [
+    {
+      "id": 1,
+      "skuCode": "ABC123",
+      "price": 29.99,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "skuCode": "XYZ456",
+      "price": 49.95,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "skuCode": "DEF789",
+      "price": 14.99,
+      "quantity": 5
+    }
+  ]
+}
