@@ -15,6 +15,7 @@
 	<description>Shopping Project</description>
 	<packaging>pom</packaging>
 	<modules>
+		<module>api-gateway</module>
 		<module>discovery-server</module>
 		<module>product-service</module>
 		<module>order-service</module>
